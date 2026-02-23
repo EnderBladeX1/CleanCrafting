@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.cleancrafting.evil_removal.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "RecipeManagerMixin",
+    "SpawnRestrictionMixin",
+    "BrewingStandBlockEntityMixin",
+    "EnchantmentScreenHandlerMixin",
+    "VillagerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
