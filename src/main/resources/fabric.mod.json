@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "evil_removal",
+  "version": "${version}",
+  "name": "Evil_Removal",
+  "description": "Config-driven removal of unwanted mobs, items, loot, brewing, enchanting, and blocks across all dimensions.",
+  "authors": ["CleanCrafting"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cleancrafting.evil_removal.EvilRemovalMod"
+    ]
+  },
+  "mixins": [
+    "evil_removal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.3",
+    "fabric": "*",
+    "minecraft": ">=1.21.1"
+  }
+}
